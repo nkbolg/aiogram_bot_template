@@ -1,16 +1,15 @@
-# Шаблон проекта телеграм-бота 
-
------
-
-## Используемые библиотеки
-- aiogram v3
-- pydantic-settings
+# Telegram-bot project template based on aiogram-3 library
 
 -----
 
 ## How to use
 
-- `make init` - установка зависимостей для запуска
-- `make init-dev` - установка зависимостей для разработки
-- `make freeze` - генерация requirements.txt-файла
-- `make test` - запуск тестов
+- `make init` - install runtime deps
+- `make init-dev` - install dev deps
+- `make freeze` - generate requirements.txt
+- `make test` - run tests
+- `make check` - run Ruff checks
+- `make run` - run bot
+---
+Note: Before running the bot you should put your bot-token into `.env` file
+or `bot_token` env-variable.
