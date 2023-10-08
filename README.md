@@ -11,5 +11,7 @@
 - `make check` - run Ruff checks
 - `make run` - run bot
 ---
-Note: Before running the bot you should put your bot-token into `.env` file
+Before running the bot you should put your bot-token into `.env` file
 or `bot_token` env-variable.
+
+After cloning the template don't forget to replace `name`, `author` and `author_email` fields in `setup.cfg`
